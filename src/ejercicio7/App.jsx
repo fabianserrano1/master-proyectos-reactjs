@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="contenedor">
-      <a href="/" className="volver">← Volver al inicio</a>
+      <a href="../" className="volver">← Volver al inicio</a>
       <h1>Generador de Contraseñas</h1>
 
       <input

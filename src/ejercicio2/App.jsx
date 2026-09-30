@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="contenedor">
-      <a href="/" className="volver">← Volver al inicio</a>
+      <a href="../" className="volver">← Volver al inicio</a>
       <h1>Contador de Clics</h1>
       <button onClick={handleClick}>Contar clics</button>
       <p>Clics: {clicks}</p>

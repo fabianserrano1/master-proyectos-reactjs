@@ -1,16 +1,27 @@
-# React + Vite
+# ReactJS - Entrega de Ejercicios 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Máster de Desarrollo Full Stack - Conquer Blocks
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+9 ejercicios individuales construidos con React, migrados desde sus versiones equivalentes en JavaScript vanilla (ver enunciado original). El objetivo es practicar los fundamentos de React —estado, eventos, listas dinámicas, efectos secundarios y persistencia con `localStorage`— aplicando en cada uno solo lo necesario para resolver el ejercicio concreto.
 
-## React Compiler
+**Demo publicada:** https://fabianserrano1.github.io/master-proyectos-reactjs/ejercicio-1/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Ejercicios
 
-## Expanding the ESLint configuration
+| #   | Ejercicio                            | Conceptos clave                                                |
+| --- | ------------------------------------ | -------------------------------------------------------------- |
+| 1   | Cambiador de Color de Fondo          | `useState`, estilo inline dinámico                             |
+| 2   | Contador de Clics                    | `useState`, eventos                                            |
+| 3   | Lista Dinámica                       | Arrays en estado, `.map()`, `.filter()`                        |
+| 4   | Filtro de Búsqueda en Tiempo Real    | Cálculo derivado del estado                                    |
+| 5   | Calculadora Sencilla                 | Formularios controlados, validación                            |
+| 6   | Temporizador (Inicio/Pausa/Reinicio) | `useEffect`, `setInterval`, cleanup                            |
+| 7   | Generador de Contraseñas Aleatorias  | Generación aleatoria de strings                                |
+| 8   | Contador de Palabras y Caracteres    | Expresiones regulares, valores derivados                       |
+| 9   | Lista de Tareas con LocalStorage     | `useEffect` (montaje + persistencia), `JSON.stringify`/`parse` |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura del proyecto
+
+Cada ejercicio es una entrada independiente de Vite (build multi-página), con su propio `index.html`, componente React y estilos en Sass:

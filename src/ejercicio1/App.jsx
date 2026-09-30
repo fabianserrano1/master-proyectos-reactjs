@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="contenedor" style={{ backgroundColor: bgColor }}>
-      <a href="/" className="volver">← Volver al inicio</a>     
+      <a href="../" className="volver">← Volver al inicio</a>     
       <h1>Cambiador de Color de Fondo</h1>
       <button onClick={handleChangeColor}>Cambiar color</button>
       <p>Color actual: {bgColor}</p>

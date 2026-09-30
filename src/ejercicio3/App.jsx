@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="contenedor">
-      <a href="/" className="volver">← Volver al inicio</a>
+      <a href="../" className="volver">← Volver al inicio</a>
       <h1>Lista Dinámica</h1>
 
       <div className="formulario">
