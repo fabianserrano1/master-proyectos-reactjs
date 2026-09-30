@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #1a1a1a;
+  color: #eee;
+}
+
+.landing {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.landing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.landing li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.landing a {
+  color: #7fd1ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.landing a:hover {
+  text-decoration: underline;
+}
+
+.landing em {
+  color: #777;
+  font-style: normal;
+  font-size: 0.9rem;
+}
