@@ -1,0 +1,1 @@
+.contenedor{flex-direction:column;justify-content:center;align-items:center;height:100vh;font-family:sans-serif;transition:background-color .3s;display:flex}.contenedor button{cursor:pointer;color:#fff;background-color:#222;border:none;border-radius:8px;padding:.75rem 1.5rem;font-size:1rem}.contenedor button:hover{background-color:#444}
